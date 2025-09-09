@@ -3,7 +3,7 @@
 A curated **multi-module C++ project** showcasing production-style structure: a reusable static library (`megakit`),
 a CLI toolkit (`megakit_cli`), examples, and tests — all built with **CMake** and **C++17**. Designed to look professional in a GitHub portfolio while remaining dependency‑free and easy to build anywhere (Windows, Linux, macOS).
 
-## ✨ Features
+## Features
 - Clean `include/` + `src/` split with namespaced headers
 - Algorithms: graph (BFS, Dijkstra, topological sort), strings (KMP), math (gcd, sieve), DSU, segment tree
 - Tiny test framework (no external deps) wired to `ctest`
@@ -11,7 +11,7 @@ a CLI toolkit (`megakit_cli`), examples, and tests — all built with **CMake** 
 - Editor configs: `.clang-format`, `.editorconfig`, VS Code tasks
 - Scripts for one‑command builds
 
-## 📦 Structure
+## Structure
 ```
 megakit-cpp/
 ├─ CMakeLists.txt
@@ -42,7 +42,7 @@ megakit-cpp/
 └─ .vscode/...
 ```
 
-## 🚀 Build & Run
+## Build & Run
 
 ### Prerequisites
 - CMake ≥ 3.16
@@ -73,13 +73,13 @@ cmake --build build -j
 ./build/example_graph
 ```
 
-## 🧪 Tiny Test Framework
+## Tiny Test Framework
 We ship a minimal header (`tests/test_util.hpp`) with `TEST_CASE` and `REQUIRE` macros. No external dependencies required.
 
-## 🛠 VS Code
+## VS Code
 Open the folder and run tasks:
 - **Build (CMake)** — builds `Release`
 - **Run tests** — executes `ctest`
 
-## 📄 License
+## License
 MIT — do whatever you want, but attribution is appreciated.
