@@ -1,0 +1,9 @@
+BasedOnStyle: LLVM
+IndentWidth: 2
+ColumnLimit: 120
+AllowShortFunctionsOnASingleLine: Empty
+NamespaceIndentation: None
+SortIncludes: true
+IncludeBlocks: Regroup
+ReflowComments: true
+SpacesInAngles: false
